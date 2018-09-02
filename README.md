@@ -1,5 +1,5 @@
-# wechat_fristShop
-微信公众号上部署水果商城
+# Rice PHP框架
+Rice轻量级PHP框架
 
 ##框架流程
 
