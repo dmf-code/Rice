@@ -5,17 +5,3 @@
 
 ![](lct.jpg)
 
-##功能展示
-
->首页
-
-![](readme1.jpg)
-
->分类
-
-![](readme3.jpg)
-
->我的
-
-![](readme2.jpg)
-
