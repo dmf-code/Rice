@@ -1,0 +1,206 @@
+2018-09-03 01:03:53 Unknown error type: [1] Uncaught Error: Class 'core\loader' not found in C:\Users\DMF\Desktop\Rice\Core\dphp.php:25
+Stack trace:
+#0 C:\Users\DMF\Desktop\Rice\index.php(17): core\dphp::run()
+#1 {main}
+  thrown<br />
+  Fatal error on line 25 in file C:\Users\DMF\Desktop\Rice\Core\dphp.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 01:40:55 Unknown error type: [1] Uncaught Error: Class 'Rice\Core\DPhp' not found in C:\Users\DMF\Desktop\Rice\index.php:17
+Stack trace:
+#0 {main}
+  thrown<br />
+  Fatal error on line 17 in file C:\Users\DMF\Desktop\Rice\index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 01:41:31 Unknown error type: [1] Uncaught Error: Class 'core\loader' not found in C:\Users\DMF\Desktop\Rice\Core\Di.php:25
+Stack trace:
+#0 C:\Users\DMF\Desktop\Rice\index.php(17): Rice\Core\Di::run()
+#1 {main}
+  thrown<br />
+  Fatal error on line 25 in file C:\Users\DMF\Desktop\Rice\Core\Di.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 01:43:13 Unknown error type: [1] Uncaught Exception: 不存在C:\Users\DMF\Desktop\Rice/Rice/Core/Dispatcher.php类文件。 in C:\Users\DMF\Desktop\Rice\Core\Loader.php:22
+Stack trace:
+#0 [internal function]: Rice\Core\Loader::autoload('Rice\\Core\\Dispa...')
+#1 C:\Users\DMF\Desktop\Rice\Core\Di.php(31): spl_autoload_call('Rice\\Core\\Dispa...')
+#2 C:\Users\DMF\Desktop\Rice\index.php(17): Rice\Core\Di::run()
+#3 {main}
+  thrown<br />
+  Fatal error on line 22 in file C:\Users\DMF\Desktop\Rice\Core\Loader.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 01:43:38 Unknown error type: [1] Uncaught Exception: 不存在C:\Users\DMF\Desktop\Rice/Rice/Core/Dispatcher.php类文件。 in C:\Users\DMF\Desktop\Rice\Core\Loader.php:22
+Stack trace:
+#0 [internal function]: Rice\Core\Loader::autoload('Rice\\Core\\Dispa...')
+#1 C:\Users\DMF\Desktop\Rice\Core\Di.php(31): spl_autoload_call('Rice\\Core\\Dispa...')
+#2 C:\Users\DMF\Desktop\Rice\index.php(17): Rice\Core\Di::run()
+#3 {main}
+  thrown<br />
+  Fatal error on line 22 in file C:\Users\DMF\Desktop\Rice\Core\Loader.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 01:45:06 Unknown error type: [1] Uncaught Exception: 不存在C:\Users\DMF\Desktop\Rice/Rice/Core/Dispatcher.php类文件。 in C:\Users\DMF\Desktop\Rice\Rice\Loader.php:22
+Stack trace:
+#0 [internal function]: Rice\Core\Loader::autoload('Rice\\Core\\Dispa...')
+#1 C:\Users\DMF\Desktop\Rice\Rice\Core.php(31): spl_autoload_call('Rice\\Core\\Dispa...')
+#2 C:\Users\DMF\Desktop\Rice\index.php(17): Rice\Core\Core::run()
+#3 {main}
+  thrown<br />
+  Fatal error on line 22 in file C:\Users\DMF\Desktop\Rice\Rice\Loader.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 01:47:39 Unknown error type: [2] require_once(Loader.php): failed to open stream: No such file or directory<br />
+  Fatal error on line 18 in file C:\Users\DMF\Desktop\Rice\Rice\Bootstarp.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 01:47:39 Unknown error type: [64] require_once(): Failed opening required 'Loader.php' (include_path='.;C:\php\pear')<br />
+  Fatal error on line 18 in file C:\Users\DMF\Desktop\Rice\Rice\Bootstarp.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 01:49:13 Unknown error type: [2] require(./Core/Loader.php): failed to open stream: No such file or directory<br />
+  Fatal error on line 18 in file C:\Users\DMF\Desktop\Rice\Rice\Bootstarp.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 01:49:13 Unknown error type: [64] require(): Failed opening required './Core/Loader.php' (include_path='.;C:\php\pear')<br />
+  Fatal error on line 18 in file C:\Users\DMF\Desktop\Rice\Rice\Bootstarp.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 01:49:55 Unknown error type: [1] Uncaught Exception: 不存在C:\Users\DMF\Desktop\Rice/Rice/Core/DPhp.php类文件。 in C:\Users\DMF\Desktop\Rice\Rice\Core\Loader.php:22
+Stack trace:
+#0 [internal function]: Rice\Core\Loader::autoload('Rice\\Core\\DPhp')
+#1 C:\Users\DMF\Desktop\Rice\Rice\Core\Route.php(25): spl_autoload_call('Rice\\Core\\DPhp')
+#2 C:\Users\DMF\Desktop\Rice\Rice\Core\Route.php(16): Rice\Core\Route::invoke('index', 'test\\controller...')
+#3 C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php(37): Rice\Core\Route::check()
+#4 C:\Users\DMF\Desktop\Rice\index.php(17): Rice\Core\Core::run()
+#5 {main}
+  thrown<br />
+  Fatal error on line 22 in file C:\Users\DMF\Desktop\Rice\Rice\Core\Loader.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:22:03 Unknown error type: [1] Uncaught Exception: 不存在C:\Users\DMF\Desktop\Rice/Rice/Core/DPhp.php类文件。 in C:\Users\DMF\Desktop\Rice\Rice\Core\Loader.php:22
+Stack trace:
+#0 [internal function]: Rice\Core\Loader::autoload('Rice\\Core\\DPhp')
+#1 C:\Users\DMF\Desktop\Rice\Rice\Core\Controller.php(21): spl_autoload_call('Rice\\Core\\DPhp')
+#2 C:\Users\DMF\Desktop\Rice\Test\Controller\Index.php(18): Rice\Core\Controller->__construct()
+#3 C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php(89): Test\Controller\Index->__construct()
+#4 C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php(34): Rice\Core\Core::exec()
+#5 C:\Users\DMF\Desktop\Rice\index.php(17): Rice\Core\Core::run()
+#6 {main}
+  thrown<br />
+  Fatal error on line 22 in file C:\Users\DMF\Desktop\Rice\Rice\Core\Loader.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:26:21 Unknown error type: [1] Uncaught Exception: 不存在C:\Users\DMF\Desktop\Rice/Rice/Core/DPhp.php类文件。 in C:\Users\DMF\Desktop\Rice\Rice\Core\Loader.php:22
+Stack trace:
+#0 [internal function]: Rice\Core\Loader::autoload('Rice\\Core\\DPhp')
+#1 C:\Users\DMF\Desktop\Rice\Rice\Core\Controller.php(21): spl_autoload_call('Rice\\Core\\DPhp')
+#2 C:\Users\DMF\Desktop\Rice\Test\Controller\Index.php(18): Rice\Core\Controller->__construct()
+#3 C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php(89): Test\Controller\Index->__construct()
+#4 C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php(34): Rice\Core\Core::exec()
+#5 C:\Users\DMF\Desktop\Rice\index.php(17): Rice\Core\Core::run()
+#6 {main}
+  thrown<br />
+  Fatal error on line 22 in file C:\Users\DMF\Desktop\Rice\Rice\Core\Loader.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:26:23 Unknown error type: [1] Uncaught Exception: 不存在C:\Users\DMF\Desktop\Rice/Rice/Core/DPhp.php类文件。 in C:\Users\DMF\Desktop\Rice\Rice\Core\Loader.php:22
+Stack trace:
+#0 [internal function]: Rice\Core\Loader::autoload('Rice\\Core\\DPhp')
+#1 C:\Users\DMF\Desktop\Rice\Rice\Core\Controller.php(21): spl_autoload_call('Rice\\Core\\DPhp')
+#2 C:\Users\DMF\Desktop\Rice\Test\Controller\Index.php(18): Rice\Core\Controller->__construct()
+#3 C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php(89): Test\Controller\Index->__construct()
+#4 C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php(34): Rice\Core\Core::exec()
+#5 C:\Users\DMF\Desktop\Rice\index.php(17): Rice\Core\Core::run()
+#6 {main}
+  thrown<br />
+  Fatal error on line 22 in file C:\Users\DMF\Desktop\Rice\Rice\Core\Loader.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:26:56 Unknown error type: [1] Uncaught Exception: 不存在C:\Users\DMF\Desktop\Rice/Race/Core/Infos.php类文件。 in C:\Users\DMF\Desktop\Rice\Rice\Core\Loader.php:22
+Stack trace:
+#0 [internal function]: Rice\Core\Loader::autoload('Race\\Core\\Infos')
+#1 [internal function]: spl_autoload_call('Race\\Core\\Infos')
+#2 C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php(61): ReflectionClass->__construct('\\Race\\Core\\Info...')
+#3 C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php(9): Rice\Core\Core::get('Infos')
+#4 C:\Users\DMF\Desktop\Rice\Rice\Core\Cache.php(65): require_once('C:\\Users\\DMF\\De...')
+#5 C:\Users\DMF\Desktop\Rice\Rice\Core\Cache.php(39): Rice\Core\Cache->compile('C:\\Users\\DMF\\De...', 'C:\\Users\\DMF\\De...')
+#6 C:\Users\DMF\Desktop\Rice\Rice\Core\Controller.php(29): Rice\Core\Cache->display('Index', NULL)
+#7 C:\Users\DMF\Desktop\Rice\Test\Controller\Index.php(25): Rice\Core\Controller->display()
+#8 [internal function]: Test\Controller\Index->Index()
+#9 C:\Users\DMF\Desktop\Rice\Rice\Core\Route.php(37): ReflectionMethod->inv<br />
+  Fatal error on line 22 in file C:\Users\DMF\Desktop\Rice\Rice\Core\Loader.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:29:48 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 11 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:30:16 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 11 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:30:18 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 11 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:30:19 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 11 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:30:20 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 11 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:30:51 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 11 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:31:15 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:33:59 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:35:29 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:35:49 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:36:32 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:36:53 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:37:11 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:37:37 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:38:09 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:38:11 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:39:55 Unknown error type: [8] Undefined property: Rice\Core\Infos::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:40:28 Unknown error type: [8] Undefined property: Rice\Core\Cache::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:40:43 Unknown error type: [8] Undefined property: Rice\Core\Cache::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:40:45 Unknown error type: [8] Undefined property: Rice\Core\Cache::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:40:45 Unknown error type: [8] Undefined property: Rice\Core\Cache::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:40:46 Unknown error type: [8] Undefined property: Rice\Core\Cache::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:40:46 Unknown error type: [8] Undefined property: Rice\Core\Cache::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:40:46 Unknown error type: [8] Undefined property: Rice\Core\Cache::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:44:03 Unknown error type: [8] Undefined property: Rice\Core\Cache::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:44:36 Unknown error type: [8] Undefined property: Rice\Core\Cache::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:45:35 Unknown error type: [8] Undefined property: Rice\Core\Cache::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:46:14 Unknown error type: [8] Undefined property: Rice\Core\Cache::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:47:33 Unknown error type: [8] Undefined property: Rice\Core\Cache::$test<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:49:35 Unknown error type: [8] Trying to get property 'test' of non-object<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:49:37 Unknown error type: [8] Trying to get property 'test' of non-object<br />
+  Fatal error on line 12 in file C:\Users\DMF\Desktop\Rice\Test\Tpl\Index\Index.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:51:55 Unknown error type: [1] Uncaught ArgumentCountError: Too few arguments to function Rice\Core\Core::set(), 1 passed in C:\Users\DMF\Desktop\Rice\Rice\Core\Controller.php on line 22 and exactly 2 expected in C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php:43
+Stack trace:
+#0 C:\Users\DMF\Desktop\Rice\Rice\Core\Controller.php(22): Rice\Core\Core::set('\\Rice\\Core\\Cach...')
+#1 C:\Users\DMF\Desktop\Rice\Test\Controller\Index.php(18): Rice\Core\Controller->__construct()
+#2 C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php(89): Test\Controller\Index->__construct()
+#3 C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php(34): Rice\Core\Core::exec()
+#4 C:\Users\DMF\Desktop\Rice\index.php(17): Rice\Core\Core::run()
+#5 {main}
+  thrown<br />
+  Fatal error on line 43 in file C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:52:29 Unknown error type: [2] Attempt to assign property 'test' of non-object<br />
+  Fatal error on line 42 in file C:\Users\DMF\Desktop\Rice\Rice\Core\Controller.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:52:29 Unknown error type: [1] Uncaught Error: Call to a member function display() on string in C:\Users\DMF\Desktop\Rice\Rice\Core\Controller.php:30
+Stack trace:
+#0 C:\Users\DMF\Desktop\Rice\Test\Controller\Index.php(25): Rice\Core\Controller->display()
+#1 [internal function]: Test\Controller\Index->Index()
+#2 C:\Users\DMF\Desktop\Rice\Rice\Core\Route.php(37): ReflectionMethod->invoke(Object(Test\Controller\Index))
+#3 C:\Users\DMF\Desktop\Rice\Rice\Core\Route.php(16): Rice\Core\Route::invoke('Index', 'Test\\Controller...')
+#4 C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php(37): Rice\Core\Route::check()
+#5 C:\Users\DMF\Desktop\Rice\index.php(17): Rice\Core\Core::run()
+#6 {main}
+  thrown<br />
+  Fatal error on line 30 in file C:\Users\DMF\Desktop\Rice\Rice\Core\Controller.php, PHP 7.2.1 (WINNT)<br />
+2018-09-03 02:54:38 Unknown error type: [1] Uncaught Error: Cannot access private property Rice\Core\Cache::$vars in C:\Users\DMF\Desktop\Rice\Rice\Core\Controller.php:40
+Stack trace:
+#0 C:\Users\DMF\Desktop\Rice\Test\Controller\Index.php(24): Rice\Core\Controller->assign('test', 'test 123')
+#1 [internal function]: Test\Controller\Index->Index()
+#2 C:\Users\DMF\Desktop\Rice\Rice\Core\Route.php(37): ReflectionMethod->invoke(Object(Test\Controller\Index))
+#3 C:\Users\DMF\Desktop\Rice\Rice\Core\Route.php(16): Rice\Core\Route::invoke('Index', 'Test\\Controller...')
+#4 C:\Users\DMF\Desktop\Rice\Rice\Core\Core.php(37): Rice\Core\Route::check()
+#5 C:\Users\DMF\Desktop\Rice\index.php(17): Rice\Core\Core::run()
+#6 {main}
+
+Next Error: Cannot access private property Rice\Core\Cache::$vars in C:\Users\DMF\Desktop\Rice\Rice\Core\Controller.php:40
+Stack trace:
+#0 C:\Users\DMF\Desktop\Rice\Test\Controller\Index.php(24): Rice\Core\Controller->assign('test', 'test 123')
+#1 [internal function]: Test\Controller\Index->Index()
+#2 C:\Users\DMF\Desktop\Rice\Rice\Core\Route.<br />
+  Fatal error on line 40 in file C:\Users\DMF\Desktop\Rice\Rice\Core\Controller.php, PHP 7.2.1 (WINNT)<br />
