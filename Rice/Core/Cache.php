@@ -42,7 +42,7 @@ class Cache
             $this->compile($tpl_file,$cache_file);
         }
         /*规定网站图标*/
-        echo '<link rel="shortcut icon" href="/fruitShop/favicon.ico">';
+//        echo '<link rel="shortcut icon" href="/fruitShop/favicon.ico">';
 
         require_once($cache_file);
     }
