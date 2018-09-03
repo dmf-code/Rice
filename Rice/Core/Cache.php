@@ -20,10 +20,13 @@ class Cache
 
         $tpl_file = ROOT_PATH.'/'.MODULE_NAME.'/Tpl/'.CONTROLLER_NAME.'/'.$filename.'.php';
 
+        $url_html_suffix = Core::get('Config')->get('Rice')['url_html_suffix'];
+        $url_html_suffix = explode('|',$url_html_suffix)[0];
+
         if(!$page){
-            $cache_file = ROOT_PATH.'/Caches/'.MODULE_NAME.'/'.CONTROLLER_NAME.'/'.$filename.'.htm';
+            $cache_file = ROOT_PATH.'/Caches/'.MODULE_NAME.'/'.CONTROLLER_NAME.'/'.$filename.'.'.$url_html_suffix;
         }else{
-            $cache_file = ROOT_PATH.'/Caches/'.MODULE_NAME.'/'.CONTROLLER_NAME.'/'.$filename.'_'.$page.'.htm';
+            $cache_file = ROOT_PATH.'/Caches/'.MODULE_NAME.'/'.CONTROLLER_NAME.'/'.$filename.'_'.$page.'.'.$url_html_suffix;
         }
 
         //var_dump(dirname($cache_file));

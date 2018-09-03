@@ -68,10 +68,14 @@ class Core
     }
 
     static public function seting(){
-        //全局模板变量
+        //配置类
+        self::set('Config','\Rice\Core\Config');
+        //模板变量
         self::set('Cache','\Rice\Core\Cache');
-        //全局信息变量
+        //信息变量
         self::set('Infos','\Rice\Core\Infos');
+
+        Core::get('Config');
     }
     //创建当前的类
     static public function exec(){

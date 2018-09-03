@@ -84,3 +84,16 @@ function isAjax(){
         return false;
     }
 }
+
+/**
+ * url函数
+ * @return string
+ *
+ */
+
+function url() {
+    $Config = \Rice\Core\Core::get('Config');
+    if ($Config['Rice']['show_url_index_php'] == false) {
+        //return
+    }
+}

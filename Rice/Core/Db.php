@@ -6,7 +6,7 @@
  * Time: 15:55
  */
 
-namespace core;
+namespace Rice\Core;
 
 class Db
 {

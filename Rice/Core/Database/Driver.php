@@ -33,7 +33,7 @@ class Driver
 
     public function __construct()
     {
-        $this->config = require_once ROOT_PATH . '/Conf/database.conf.php';
+        $this->config = require_once ROOT_PATH . '/Conf/Database.php';
 
     }
 
