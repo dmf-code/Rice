@@ -9,3 +9,6 @@
 require './Func/Common.php';
 require './Rice/Core/Loader.php';
 require './Rice/Core/Core.php';
+
+//执行路由转发，对象创建
+\Rice\Core\Core::run();

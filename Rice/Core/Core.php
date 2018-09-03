@@ -21,7 +21,7 @@ class Core
     }
 
     static public function run(){
-        //注册路由
+        //自动加载注册
         Loader::start();
 
         //设置全局变量
@@ -30,7 +30,7 @@ class Core
         //路由转发
         Dispatcher::dispatch();
 
-        //创建类对象
+        //创建控制器对象
         self::exec();
 
         //路由检测和反射

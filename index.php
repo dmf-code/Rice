@@ -13,6 +13,4 @@ session_start();
 //加载引导程序
 require_once('./Rice/Bootstarp.php');
 
-//执行路由转发，对象创建
-\Rice\Core\Core::run();
 
