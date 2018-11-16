@@ -1,0 +1,16 @@
+{
+    "name": "rice/rice",
+    "description": "rice",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DMF",
+            "email": "1015814408@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+		"dmf-code/framework" : "^0.0.*"
+	}
+}
