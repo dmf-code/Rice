@@ -1,8 +1,6 @@
 # Rice PHP框架
 Rice轻量级PHP框架
 <p align="center">
-<a href="https://packagist.org/packages/rice/rice"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/rice/rice"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/rice/rice"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
