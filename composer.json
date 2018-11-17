@@ -11,6 +11,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-		"dmf-code/framework" : "^0.0.*"
+		"dmf-code/framework" : "0.0.1"
 	}
 }
