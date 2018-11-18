@@ -6,7 +6,7 @@
  * Time: 16:43
  */
 
-namespace Test\Model;
+namespace App\Test\Model;
 
 
 use Rice\Core\Db;

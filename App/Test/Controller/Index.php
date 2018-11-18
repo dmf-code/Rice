@@ -6,7 +6,7 @@
  * Time: 17:08
  */
 
-namespace Test\Controller;
+namespace App\Test\Controller;
 
 
 use Rice\Core\Controller;
