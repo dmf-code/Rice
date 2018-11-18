@@ -12,6 +12,11 @@ Rice轻量级PHP框架
 ```
 composer composer create-project rice/rice
 ```
+注意刚刚composer下来后Caches目录要赋予权限，不然无法生成缓存文件
+```
+cd rice
+chmod -R 777 Caches
+```
 
 #使用介绍
 可以仿照Test模块进行开发
