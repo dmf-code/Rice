@@ -10,7 +10,5 @@ define('CONF_PATH',ROOT_PATH.'/Conf/');
 define('DEBUG',true);
 session_start();
 
-//加载引导程序
-require_once('./Rice/Bootstarp.php');
-
-
+require_once(__DIR__.'/vendor/autoload.php');
+\Rice\Core\Core::run();

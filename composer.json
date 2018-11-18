@@ -12,5 +12,10 @@
     "minimum-stability": "dev",
     "require": {
 		"dmf-code/framework" : "0.0.1"
-	}
+	},
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    }
 }
