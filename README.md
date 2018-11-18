@@ -8,6 +8,11 @@ Rice轻量级PHP框架
 
 ![](lct.jpg)
 
+#安装
+```
+composer composer create-project rice/rice
+```
+
 #使用介绍
 可以仿照Test模块进行开发
 
