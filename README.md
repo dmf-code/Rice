@@ -11,6 +11,8 @@ Rice轻量级PHP框架
 #使用介绍
 可以仿照Test模块进行开发
 
+App目录
+
 Test-模块
     
 -    Controller-文件夹
@@ -21,7 +23,7 @@ Test-模块
 
 创建的文件都要首字母大写
 
-Test-Controller-Index.php
+App-Test-Controller-Index.php
 
 ```
     //测试
@@ -31,7 +33,7 @@ Test-Controller-Index.php
         $this->display();
     }
 ```
-Test-Model-Index.php
+App-Test-Model-Index.php
 ```$xslt
     public function index(){
         //$db = Db::getInstance();
@@ -39,7 +41,7 @@ Test-Model-Index.php
         // $info = $db->query($sql)->bind(array('status'=>1))->fetchAll();
     }
 ```
-Test-Model-Index.php
+App-Test-Tpl-Index.php
 ```$xslt
 
 $cache = \Rice\Core\Core::get('Cache');
