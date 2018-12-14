@@ -6,7 +6,7 @@ Rice轻量级PHP框架
 
 ##框架流程
 
-![](lct.jpg)
+![](Resources/imgs/lct.jpg)
 
 #安装
 ```
